@@ -1,9 +1,9 @@
 class Bitcoinclassic < Formula
   desc "A decentralized, peer to peer payment network"
   homepage "https://bitcoinclassic.com/"
-  url "https://github.com/bitcoinclassic/bitcoinclassic/archive/v0.11.2.zip"
-  version "0.11.2"
-  sha256 "2894cbe8d2a0ea61d4c0974f7525a973e1ce1883d32c8b5af57dba1bcbae1f9f"
+  url "https://github.com/bitcoinclassic/bitcoinclassic/archive/v0.11.2.cl1.zip"
+  version "0.11.2.cl1"
+  sha256 "64e8debcde9d9162025092d66d80a5b29de46bfdc10837b8fe999fabe257f55e"
 
   head do
     url "https://github.com/bitcoinclassic/bitcoinclassic.git"
