@@ -5,11 +5,7 @@ class Bitcoinxt < Formula
   url "https://github.com/bitcoinxt/bitcoinxt", :using => :git, :tag => "v0.11E"
   version "0.11E"
 
-  head do
-    url "https://github.com/bitcoinxt/bitcoinxt.git"
-
-    depends_on "libevent"
-  end
+  head "https://github.com/bitcoinxt/bitcoinxt.git"
 
   conflicts_with "bitcoinclassic", :because => "bitcoinclassic also ships a bitcoind binary"
   conflicts_with "bitcoind", :because => "bitcoind also ships a bitcoind binary"
