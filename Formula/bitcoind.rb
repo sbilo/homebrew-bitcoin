@@ -10,6 +10,9 @@ class Bitcoind < Formula
     depends_on "libevent"
   end
 
+  conflicts_with "bitcoinclassic", :because => "bitcoinclassic also ships a bitcoind binary"
+  conflicts_with "bitcoinxt", :because => "bitcoinxt also ships a bitcoind binary"
+
   option "with-gui", "Build the GUI client (requires Qt5)"
 
   depends_on :macos => :lion
