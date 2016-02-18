@@ -1,9 +1,9 @@
 class Bitcoinxt < Formula
   desc "A decentralized, peer to peer payment network"
   homepage "https://bitcoinxt.software/"
-  url "https://github.com/bitcoinxt/bitcoinxt/archive/v0.11D.tar.gz"
-  version "0.11D"
-  sha256 "66b4bd52ed8b97e28da46ac552396c40853a9d7f765063603552e1cf118a2227"
+  # url "https://github.com/bitcoinxt/bitcoinxt/archive/v0.11E.tar.gz" # weird redirect errors sometimes happen
+  url "https://github.com/bitcoinxt/bitcoinxt", :using => :git, :tag => "v0.11E"
+  version "0.11E"
 
   head do
     url "https://github.com/bitcoinxt/bitcoinxt.git"
