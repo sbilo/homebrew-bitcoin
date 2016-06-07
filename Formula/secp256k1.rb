@@ -1,7 +1,7 @@
 class Secp256k1  < Formula
   desc "Optimized C library for EC operations on curve secp256k1"
   homepage "https://github.com/bitcoin/secp256k1"
-  head "https://github.com/bitcoin/secp256k1.git", :revision => "7b549b1abc06fe1c640014603346b85c8bc83e0b"
+  head "https://github.com/bitcoin/secp256k1.git", :revision => "b3be8521e694eaf45dd29baea035055183c42fe2"
 
   depends_on "automake" => :build
   depends_on "autoconf" => :build
